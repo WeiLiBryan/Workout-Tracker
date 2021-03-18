@@ -7,6 +7,7 @@
 [Description](#Description) |
 [Prerequisites](#Prerequisites) |
 [Technologies](#Technologies-Used) |
+[Deployment](#Deployment) |
 [Authors](#Authors) |
 [License](#License) |
 [Acknowledgements](#Acknowledgements) |
@@ -26,6 +27,10 @@ Do an ```npm install``` to install dependencies
 - Express
 - Morgan
 - mongoDB
+
+## Deployment
+
+[Link](https://peaceful-bayou-18280.herokuapp.com/)
 
 ## Authors
 
