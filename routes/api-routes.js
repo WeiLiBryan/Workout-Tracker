@@ -38,3 +38,13 @@ router.put("/api/workouts/:id", (req, res) => {
         });
 });
 
+// creates a new exercise
+router.post("/api/workouts", ({ body }, res) => {
+
+    db.Workout.create(body)
+        .then((data => {
+            res.json(data);
+        })).catch(err => {
+            res.json(err);
+        });
+});
